@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  color: #1e1b1b;
+}
+
+.navbar {
+  /* width: 100%; */
+  height: auto;
+}
+
+.container {
+  padding: 10px 90px;
+}
+
+.container-fluid {
+  padding: 10px 0px;
+}
+
+.navbar-white {
+  background: #ffffff;
+}
+
+.navbar-right {
+  margin-left: 45%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px 20px 0px 0px;
+}
+
+.stick {
+  width: 1px;
+  height: 30px;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.text-white {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.text-dark {
+  color: #1e1b1b;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sec {
+  margin-top: 10px;
+}
+
+.dropdown {
+  padding-left: 0px;
+}
+
+.img-whatsapp {
+  width: 40px;
+  height: 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.num {
+  margin: 0px;
+}
+
+.h2 {
+  font-size: 58px;
+  line-height: 76px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.stick-home {
+  padding: 0px 5px 0px 0px;
+}
+
+.img-li {
+  padding-right: 0px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 40px;
+  position: absolute;
+  outline: none;
+  border: none;
+}
+
+.btn-primary {
+  background: #ff6433;
+  border-radius: 12px;
+  color: #fff;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  cursor: pointer;
+}
+
+.bg-dark {
+  background: #1e1b1b;
+}
+.card {
+  width: 50%;
+  float: right;
+  height: 250px;
+  justify-items: center;
+}
