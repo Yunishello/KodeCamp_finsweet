@@ -14,11 +14,23 @@ body {
 /* Navbar Design */
 
 .navbar {
+  width: 100%;
   height: auto;
+  margin: 10px 0px;
+}
+
+.nav-items {
+  margin: 10px 100px;
 }
 
 .container {
-  padding: 10px 90px;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
 }
 
 .container-fluid {
@@ -30,7 +42,8 @@ body {
 }
 
 .navbar-right {
-  margin-left: 45%;
+  margin-left: 50%;
+  margin-right: 0px;
 }
 
 .h2 {
@@ -49,12 +62,16 @@ body {
 }
 
 ul {
+  margin: 0px;
+  padding: 0px;
   display: flex;
   align-items: center;
 }
 
 li {
   list-style-type: none;
+}
+.li {
   padding: 0px 20px 0px 0px;
 }
 
@@ -101,7 +118,7 @@ a {
 }
 
 .text-sec {
-  margin-top: 10px;
+  /* margin-top: 40px; */
 }
 
 .dropdown {
@@ -115,11 +132,6 @@ a {
 
 .num {
   margin: 0px;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
 }
 
 .stick-home {
@@ -136,17 +148,6 @@ ul {
   width: 50%;
 }
 
-.header-text {
-  position: absolute;
-  width: 624px;
-  height: 252px;
-  left: 16.67%;
-  top: 152px;
-  color: #1e1b1b;
-  width: 50%;
-  right: 0px;
-}
-
 .h1 {
   font-family: "Manrope";
   font-style: normal;
@@ -158,13 +159,20 @@ ul {
   width: 75%;
 }
 
+.vehicle {
+  width: 100%;
+}
+
+.div-items {
+  margin: 0px 100px;
+  margin-right: 0px;
+}
+
 .worker-section {
   background: url("https://res.cloudinary.com/pacifylabs/image/upload/v1651870025/Image_1_nn4oby.png");
-  position: absolute;
-  width: 405px;
+  width: 100%;
   height: 632px;
-  left: 57%;
-  top: 146px;
+  background-repeat: no-repeat;
 }
 
 .btn {
@@ -172,7 +180,6 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 40px;
-  position: absolute;
   outline: none;
   border: none;
 }
@@ -200,9 +207,6 @@ ul {
 }
 
 .btn-contact {
-  position: absolute;
-  top: 210px;
-  left: 60px;
 }
 
 .flex {
@@ -214,28 +218,33 @@ ul {
 }
 
 .top-icon {
-  position: absolute;
   width: 50px;
   height: 50px;
-  top: 510px;
+  margin-top: 50px;
+}
+
+.font-icon {
+  width: 36px;
+  height: 36px;
+  color: #ffb648;
+  margin: 0px 5px;
+  margin-top: 30px;
 }
 
 .open {
-  position: absolute;
   width: 93px;
   height: 24px;
-  top: 495px;
-  left: 60px;
   color: #939191;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
 .monday {
-  position: absolute;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
@@ -243,41 +252,36 @@ ul {
   line-height: 175%;
   color: #1e1b1b;
   width: 331px;
-  height: 32px;
-  left: 60px;
-  top: 500px;
+  margin-top: -20px;
+  margin-left: 10px;
 }
 
 .bg-l {
-  position: absolute;
-  width: 261.64px;
-  height: 92px;
-  left: -40px;
-  top: 80px;
+  width: 250px;
+  height: 72px;
+  margin-top: 100px;
+  margin-left: -30px;
   background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
-  border: 12px solid rgba(225, 225, 225, 0.93);
-  box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+  border: 12px solid transparent;
+  box-shadow: 0px 0px 0px 15px rgba(109, 108, 115, 0.5);
   border-radius: 59px;
 }
 
 .bg-r {
-  position: absolute;
-  width: 261.64px;
-  height: 92px;
-  left: 150px;
-  top: 450px;
+  width: 250px;
+  height: 72px;
+  margin-left: 350px;
+  margin-top: 250px;
   background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
-  border: 12px solid rgba(225, 225, 225, 0.93);
-  box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.5);
+  border: 12px solid transparent;
+  box-shadow: 0px 0px 0px 15px rgba(109, 108, 115, 0.5);
   border-radius: 59px;
 }
 
 .bg-green {
-  position: absolute;
   width: 69.66px;
   height: 70px;
-  left: 10px;
-  top: 12px;
+  margin-left: 10px;
   background: #5cba99;
   border-radius: 50%;
 }
@@ -303,45 +307,29 @@ ul {
 }
 
 .t24 {
-  position: absolute;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  letter-spacing: -0.03em;
   color: #ffffff;
-  top: 14px;
-  left: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .t4 {
-  position: absolute;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  letter-spacing: -0.03em;
   color: #000;
-  top: 20px;
-  left: 20px;
+  margin-top: 20px;
 }
 
 .hr {
-  position: absolute;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
-  top: 20px;
-  left: 35px;
+  color: #fff;
+  margin-top: -52px;
+  margin-left: 40px;
 }
 
 .service {
-  position: absolute;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
@@ -349,40 +337,36 @@ ul {
   line-height: 36px;
   letter-spacing: -0.03em;
   color: #1e1b1b;
-  top: -5px;
-  left: 90px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.rating-holder {
+  margin-top: 10px;
 }
 
 .rating {
-  position: absolute;
-  top: 50px;
-  left: 25px;
+  margin-top: -5px;
+  margin-left: 5px;
 }
 
 .services-container {
-  position: absolute;
-  width: 100%;
-  height: 894px;
-  /* right: -2px; */
-  top: 930px;
-  left: 0px;
+  margin-top: 65px;
+  padding-bottom: 45px;
+}
+
+.services-icon {
+  /* margin-top: 40px; */
 }
 
 .services-container01 {
-  position: absolute;
-  left: 16.67%;
-  top: 68px;
+  /* margin-left: ; */
 }
 
 .services-container02 {
-  position: absolute;
-  left: 57%;
-  top: 68px;
 }
 
 .circle-container {
-  position: absolute;
-  top: 170px;
 }
 
 .services-container-text01 {
@@ -403,8 +387,11 @@ ul {
   color: #1e1b1b;
 }
 
+.side {
+  margin-left: 15%;
+}
+
 .circle-primary {
-  position: absolute;
   margin-right: 10px;
   width: 47px;
   height: 47px;
@@ -412,81 +399,67 @@ ul {
   background-color: #fff;
 }
 
-.circle01 {
-  top: 48px;
-}
-
-.circle02 {
-  top: 160px;
-}
-
-.circle03 {
-  top: 272px;
-}
-
 .circle-secondary {
-  position: absolute;
   width: 72px;
   height: 72px;
   background: #661ce7;
-  left: 900px;
   border-radius: 50%;
 }
 
+.qoute-circle {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.qoute {
+  margin-top: 50px;
+}
+
 .circle-qoute {
-  top: 1952px;
   text-align: center;
   font-size: 24px;
   line-height: 36px;
 }
 
 .circle-appoint {
-  top: 2133px;
   text-align: center;
   font-size: 24px;
   line-height: 36px;
+  margin-top: 50px;
 }
 
 .circle-done {
-  top: 2314px;
   text-align: center;
   font-size: 24px;
   line-height: 36px;
+  margin-top: 50px;
 }
 
 .line {
-  position: absolute;
   width: 71px;
   height: 0px;
-  left: 900px;
   border: 2px dashed #ff6433;
   transform: rotate(90deg);
 }
 
 .line01 {
-  top: 2078px;
+  margin-top: 45px;
 }
 
 .line02 {
-  top: 2260px;
+  margin-top: 45px;
 }
 
 .Convenient {
-  position: absolute;
   width: 210px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.03em;
   color: #1e1b1b;
-  left: 63px;
-  top: 25px;
+  margin-top: 0px;
 }
 
 .Expert {
-  position: absolute;
   width: 210px;
   font-family: "Manrope";
   font-style: normal;
@@ -495,12 +468,10 @@ ul {
   line-height: 36px;
   letter-spacing: -0.03em;
   color: #1e1b1b;
-  left: 63px;
-  top: 137px;
+  margin-top: 0px;
 }
 
 .Transparent {
-  position: absolute;
   width: 210px;
   font-family: "Manrope";
   font-style: normal;
@@ -509,46 +480,29 @@ ul {
   line-height: 36px;
   letter-spacing: -0.03em;
   color: #1e1b1b;
-  left: 63px;
-  top: 249px;
+  margin-top: 0px;
 }
 
 .Convenient-text {
-  position: absolute;
   width: 322px;
-  top: 80px;
-  left: 63px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   color: #1e1b1b;
   opacity: 0.6;
+  margin-top: -30px;
 }
 
 .Expert-text {
-  position: absolute;
   width: 322px;
-  top: 192px;
-  left: 63px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   color: #1e1b1b;
   opacity: 0.6;
+  margin-top: -30px;
 }
 
 .Transparent-text {
-  position: absolute;
   width: 322px;
-  top: 304px;
-  left: 63px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   color: #1e1b1b;
@@ -556,14 +510,12 @@ ul {
 }
 
 .more {
-  position: absolute;
-  top: 600px;
-  left: 63px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 175%;
+  margin-left: 55px;
 }
 
 .form-control {
@@ -581,11 +533,8 @@ ul {
 }
 
 .follow {
-  position: absolute;
   width: 524px;
   height: 228px;
-  left: 16.06%;
-  top: 2000px;
 }
 
 .subtext {
@@ -594,83 +543,67 @@ ul {
   opacity: 0.6;
 }
 
+.st {
+  margin-top: 60px;
+}
+
 .st01 {
-  position: absolute;
   width: 437px;
   height: 56px;
-  left: 16.06%;
-  top: 2266px;
   font-size: 16px;
   line-height: 28px;
+  margin-top: -50px;
 }
 
 .btn-through {
-  top: 2362px;
 }
 
 .quote-text-heading {
-  position: absolute;
   font-size: 32px;
   line-height: 48px;
-  left: 1000px;
-  top: 1930px;
+  margin-top: 20px;
 }
 
 .appoint-text-heading {
-  position: absolute;
   font-size: 32px;
   line-height: 48px;
-  left: 1000px;
-  top: 2113px;
 }
 
 .done-text-heading {
-  position: absolute;
   font-size: 32px;
   line-height: 48px;
-  left: 1000px;
-  top: 2296px;
 }
 
 .st02 {
-  position: absolute;
   width: 336px;
   height: 96px;
-  left: 1000px;
-  top: 2000px;
+  margin-top: -25px;
 }
 
 .st03 {
-  position: absolute;
   width: 336px;
   height: 96px;
-  left: 1000px;
-  top: 2185px;
+  margin-top: -25px;
 }
 
 .st04 {
-  position: absolute;
   width: 336px;
   height: 96px;
-  left: 1000px;
-  top: 2370px;
+  margin-top: -25px;
 }
 
 .section03 {
-  position: absolute;
-  width: 1924px;
-  height: 1052px;
-  right: 0px;
-  top: 2626px;
+  width: 100%;
+  height: auto;
   background: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .offer-heading {
-  position: absolute;
   width: 154px;
   height: 36px;
-  left: 60%;
-  top: 128px;
+  margin-left: 40%;
 }
 
 .row {
@@ -679,18 +612,15 @@ ul {
 }
 
 .offer-text {
-  position: absolute;
   width: 758px;
   height: 152px;
-  left: 45%;
-  top: 172px;
   text-align: center;
+  margin-left: 20%;
 }
 
 .box-offer {
   width: 250px;
   height: 200px;
-  z-index: 0;
   margin: 5px 5px;
 }
 
@@ -704,34 +634,28 @@ ul {
 }
 
 .offer-section01 {
-  position: absolute;
-  top: 388px;
-  left: 730px;
+  margin-left: 10%;
 }
 
 .offer-section02 {
-  position: absolute;
-  top: 600px;
-  left: 730px;
+  margin-left: 10%;
 }
 
 .arrow {
-  margin-top: 850px;
-  margin-left: 1600px;
+  margin-top: 50px;
+  margin-left: 800px;
 }
 
 .img-container {
-  position: absolute;
-  top: 3678px;
-  left: 0px;
   width: 100%;
 }
 
 .pro {
-  position: absolute;
   width: 550px;
-  height: 350px;
-  left: 300px;
+  height: 340px;
+  margin-left: 300px;
+  padding-left: 70px;
+  padding-top: 10px;
 }
 
 .img01 {
@@ -740,110 +664,86 @@ ul {
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .img02 {
   background: url("https://res.cloudinary.com/pacifylabs/image/upload/v1652055368/ovGrEUgrkyE_veadei.png");
   width: 50%;
   height: 350px;
+  z-index: 0;
 }
 
 .counter {
-  position: absolute;
   width: 100%;
-  height: 150px;
-  top: 4021px;
-  left: 0px;
 }
 
 .prof {
-  position: absolute;
   width: 104px;
   height: 76px;
-  left: 180px;
-  top: 28px;
+  margin-left: 150px;
 }
 
 .year {
-  position: absolute;
   width: 104px;
   height: 76px;
-  left: 480px;
-  top: 28px;
+  margin-left: 150px;
 }
 
 .close {
-  position: absolute;
   width: 104px;
   height: 76px;
-  left: 780px;
-  top: 28px;
+  margin-left: 150px;
 }
 
 .customer {
-  position: absolute;
   width: 104px;
   height: 76px;
-  left: 1080px;
-  top: 28px;
+  margin-left: 150px;
 }
 
 .text-prof {
-  position: absolute;
   width: 131px;
   height: 36px;
-  left: 180px;
-  top: 80px;
+  margin-left: 150px;
 }
 
 .text-year {
-  position: absolute;
   width: 172px;
   height: 36px;
-  left: 480px;
-  top: 80px;
+  margin-left: 150px;
 }
 
 .text-close {
-  position: absolute;
   width: 162px;
   height: 36px;
-  left: 780px;
-  top: 80px;
+  margin-left: 150px;
 }
 
 .text-customer {
-  position: absolute;
   width: 245px;
   height: 36px;
-  left: 1080px;
-  top: 80px;
+  margin-left: 150px;
 }
 
 .brand-container {
-  position: absolute;
   width: 100%;
-  right: 0px;
+  padding-bottom: 50px;
 }
 
 .brand-text {
-  position: absolute;
   width: 362px;
   height: 67px;
-  left: 483px;
-  top: 4099px;
+  margin-left: 40%;
 }
 
 .brand-container-first {
-  position: absolute;
-  left: 460px;
-  top: 4371px;
+  margin-left: 3%;
 }
 
 .brand-container-second {
-  position: absolute;
-  left: 460px;
-  top: 4472.48px;
+  margin-left: 3%;
+  margin-top: 50px;
 }
 
 .brand-img {
@@ -852,6 +752,8 @@ ul {
 
 .card-header {
   text-align: center;
+  width: 700px;
+  margin-left: 25%;
 }
 
 .card {
@@ -870,10 +772,9 @@ ul {
 }
 
 .customer-container {
-  position: absolute;
-  top: 4892px;
-  left: 0px;
+  padding-top: 20px;
   background: #f2f2f2;
+  width: 100%;
 }
 
 .card-span {
@@ -893,134 +794,154 @@ ul {
 }
 
 .circle {
+  margin-left: 350px;
+}
+
+.circle-items {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  margin-left: 350px;
   margin-top: -20px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
-.circle02 {
-  margin-left: 20px;
+.smith {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.smith-text {
+  margin-top: -30px;
+  margin-left: 10px;
 }
 
 .faq-container {
-  position: absolute;
   width: 100%;
   height: auto;
-  left: 0px;
-  top: 5500px;
+  padding: 50px 0px;
 }
 
 .card-faq {
   width: 520px;
-  height: 226px;
+  /* height: 226px; */
   margin-left: 420px;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.faq-btn {
+  width: 50px;
+  height: 50px;
 }
 
 .card-faq02 {
-  height: 7 0px;
-  padding-top: 2px;
-  padding-bottom: 30px;
+  height: 50px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.minus {
+  border-radius: 0%;
+  margin-left: 470px;
+  border: none;
+  outline: none;
+}
+
+.repair {
+  margin-top: -50px;
+}
+
+.schedule {
+  margin-top: -45px;
 }
 
 .plus {
   border-radius: 0%;
-  margin-top: -150px;
-  margin-left: 400px;
-}
-
-.plus02 {
-  margin-top: -80px;
+  margin-left: 470px;
+  margin-top: 5px;
+  border: none;
+  outline: none;
 }
 
 .footer {
-  position: absolute;
-  top: 7110px;
   width: 100%;
   height: 520px;
 }
 
 .footer-h3 {
-  position: absolute;
-  top: 0px;
-  left: 150px;
   width: 463px;
   height: 134px;
+  margin-left: 150px;
+  margin-top: 128px;
+  margin-right: 50px;
+}
+
+.address {
+  margin-top: -30px;
+}
+
+.open02 {
+  margin-top: -30px;
 }
 
 .help-line {
-  position: absolute;
-  top: 38px;
-  left: 726px;
   color: #ffffff;
   opacity: 0.6;
 }
 
 .help-number {
-  position: absolute;
-  left: 726px;
-  top: 30px;
+  margin-top: -20px;
+  width: 500px;
 }
 
 .help-address {
-  position: absolute;
-  top: 138px;
-  left: 726px;
   color: #ffffff;
   opacity: 0.6;
 }
 
 .help-add {
-  position: absolute;
-  left: 726px;
-  top: 130px;
+  margin-top: -20px;
+  width: 500px;
 }
 
 .help-open {
-  position: absolute;
-  top: 338px;
-  left: 726px;
   color: #ffffff;
   opacity: 0.6;
 }
 
 .help-day {
-  position: absolute;
-  left: 726px;
-  top: 330px;
+  margin-top: -20px;
+  width: 500px;
 }
 
 footer {
-  position: absolute;
   width: 100%;
-  height: 100px;
-  top: 7610px;
+  height: 50px;
   background-color: #000;
 }
 
 .footer-logo {
-  position: absolute;
-  top: 40px;
-  left: 150px;
+  margin-left: 300px;
+  /* margin-top: 30px; */
 }
 
 .footer-nav {
-  margin-top: 50px;
-  margin-left: 600px;
+  /* margin-top: 50px; */
+  margin-left: 550px;
+  align-items: center;
 }
 
 .footer-icons {
-  position: absolute;
-  top: 200px;
-  left: 150px;
+  margin-left: 150px;
 }
 
 .footer-icon {
   width: 24px;
   height: 24px;
   padding-right: 5px;
+}
+
+.second {
+  margin-top: 30px;
 }

@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KodeCamp | {Finsweet Service</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://use.fontawesome.com/d3cfc97040.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-white container">
-      <ul>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-white">
+      <ul class="nav-items">
         <li>
           <a href="#">
             <img
@@ -19,19 +21,21 @@
           /></a>
         </li>
         <ul class="navbar-right">
-          <li class="list-text home"><a class="text-dark" href="#">Home</a></li>
-          <li class="list-text about">
+          <li class="list-text li"><a class="text-dark" href="#">Home</a></li>
+          <li class="list-text about li">
             <a class="text-dark" href="#">About</a>
           </li>
-          <li class="list-text services">
+          <li class="list-text services li">
             <a class="text-dark" href="#">Services</a>
           </li>
-          <li class="list-text blog"><a class="text-dark" href="#">Blog</a></li>
-          <li class="list-text contact">
+          <li class="list-text blog li">
+            <a class="text-dark" href="#">Blog</a>
+          </li>
+          <li class="list-text contact li">
             <a class="text-dark" href="#">Contact</a>
           </li>
           <li class="list-text stick-home"><div class="stick"></div></li>
-          <li class="list-text home">
+          <li class="list-text">
             <ul class="dropdown flex">
               <li>
                 <a href="#">
@@ -41,7 +45,7 @@
                     alt="whatsapp-icon"
                 /></a>
               </li>
-              <li class="drop-items">
+              <li class="">
                 <span class="list-text road"
                   ><a class="text-dark" href="#">Road Assistance</a></span
                 >
@@ -54,78 +58,85 @@
         </ul>
       </ul>
     </nav>
-    <div class="container">
-      <div class="container">
-        <div class="col6">
-          <div class="header-text">
-            <h1 class="h1">
-              Get your vehicle service done online at one place
-            </h1>
-            <button class="btn btn-primary btn-header">Book a service</button>
-            <div class="flex icon">
-              <img
-                class="top-icon"
-                src="https://res.cloudinary.com/pacifylabs/image/upload/v1651929192/Icon_ajwr8e.png"
-                alt=""
-              />
-              <div>
-                <p class="open">We are open</p>
-                <h5 class="monday">Monday to Friday 9:00 AM to 10:00 AM</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col6 worker-section header-img">
+
+    <!-- Header section -->
+    <div class="row">
+      <div class="div-items">
+        <h1 class="vehicle h1">
+          Get your vehicle service done online at one place
+        </h1>
+        <button class="btn btn-primary btn-header">Book a service</button>
+        <div class="flex">
+          <img
+            class="top-icon"
+            src="https://res.cloudinary.com/pacifylabs/image/upload/v1651929192/Icon_ajwr8e.png"
+            alt=""
+          />
           <div>
-            <div class="bg-l flex">
-              <div class="bg-green">
-                <span class="t24">24</span><span class="hr">hr</span>
-              </div>
-              <h4 class="service">Quick service</h4>
-            </div>
-            <div class="bg-r flex">
-              <div class="">
-                <span class="t4">4.5/5</span>
-                <span class="rating">Rating</span>
-              </div>
-              <span class="service flex"></span>
-            </div>
+            <p class="open">We are open</p>
+            <h5 class="monday">Monday to Friday 9:00 AM to 10:00 AM</h5>
           </div>
         </div>
       </div>
+      <div class="col6 worker-section header-img">
+        <div class="bg-l flex">
+          <div class="bg-green">
+            <p class="text t24">24</p>
+            <p class="hr">hr</p>
+          </div>
+          <h4 class="service">Quick service</h4>
+        </div>
+        <div class="bg-r flex">
+          <div class="rating-holder">
+            <span class="t4">4.5/5</span>
+            <p class="rating">Rating</p>
+          </div>
+          <div class="flex">
+            <i class="fa-solid fa-star font-icon"></i>
+            <i class="fa-solid fa-star font-icon"></i>
+            <i class="fa-solid fa-star font-icon"></i>
+            <i class="fa-solid fa-star font-icon"></i>
+            <i class="fa-solid fa-star-half-stroke font-icon"></i>
+          </div>
+          <span class="service flex"></span>
+        </div>
+      </div>
+    </div>
 
-      <div class="services-container flex bg-default">
+    <!-- Services section -->
+    <div class="services-container bg-default">
+      <div class="div-items row">
         <div class="services-container01">
           <h1 class="services-container-text01">
             We are taking car servicing seriously
           </h1>
-          <div class="flex circle-container">
-            <div class="circle-primary circle01">
-              <i class="fa fa-icon"></i>
+          <div class="row circle-container">
+            <div class="circle-primary text-center">
+              <i class="fa-solid fa-gear services-icon"></i>
             </div>
             <div>
-              <h4 class="Convenient">Convenient service</h4>
-              <p class="Convenient-text">
+              <h4 class="text Convenient">Convenient service</h4>
+              <p class="text Convenient-text">
+                Through True Rich Attended does no end it his mother since real
+                had half every him.
+              </p>
+            </div>
+          </div>
+          <div class="row circle-container">
+            <div class="circle-primary text-center">
+              <i class="fa-solid fa-user-gear services-icon"></i>
+            </div>
+            <div>
+              <h4 class="text Expert">Expert mechanics</h4>
+              <p class="text Expert-text">
                 Through True Rich Attended does no end it his mother since real
                 had half every him.
               </p>
             </div>
           </div>
           <div class="flex circle-container">
-            <div class="circle-primary circle02">
-              <i class="fa fa-icon"></i>
-            </div>
-            <div>
-              <h4 class="Expert">Expert mechanics</h4>
-              <p class="Expert-text">
-                Through True Rich Attended does no end it his mother since real
-                had half every him.
-              </p>
-            </div>
-          </div>
-          <div class="flex circle-container">
-            <div class="circle-primary circle03">
-              <i class="fa fa-icon"></i>
+            <div class="circle-primary">
+              <i class="fa-solid fa-circle-dollar services-icon"></i>
             </div>
             <div>
               <h4 class="Transparent">Transparent pricing</h4>
@@ -135,7 +146,10 @@
               </p>
             </div>
           </div>
-          <span class="more">Know more about us <a href="#">----></a></span>
+          <span class="more"
+            >Know more about us
+            <a href="#"><i class="fa-solid fa-arrow-right"></i></a
+          ></span>
         </div>
         <div class="services-container02">
           <h1 class="services-container-text02">
@@ -170,34 +184,39 @@
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <h2 class="text h2 follow">
-            We follow a clear process to help you out.
-          </h2>
-          <p class="text subtext st01">
-            Through True Rich Attended does no end it his mother since real had
-            half every him case in packages enquire
-          </p>
-          <button class="btn btn-header btn-primary btn-left btn-through">
-            Learn more
-          </button>
-        </div>
-        <div>
+    </div>
+
+    <!-- Qoute section -->
+    <div class="row">
+      <div class="div-items st">
+        <h2 class="text h2 follow">
+          We follow a clear process to help you out.
+        </h2>
+        <p class="text subtext st01">
+          Through True Rich Attended does no end it his mother since real had
+          half every him case in packages enquire
+        </p>
+        <button class="btn btn-header btn-primary btn-left btn-through">
+          Learn more
+        </button>
+      </div>
+
+      <div class="row side">
+        <div class="qoute-circle">
           <div class="circle-secondary circle-qoute">
-            <span class="text text-white text-sec">01</span>
+            <p class="text text-white text-sec">01</p>
           </div>
           <div class="line line01"></div>
-          <div class="circle-secondary circle-appoint text text-white">
-            <span class="text text-white text-sec">02</span>
+          <div class="circle-secondary circle-appoint">
+            <p class="text text-white text-sec">02</p>
           </div>
           <div class="line line02"></div>
-          <div class="circle-secondary circle-done text text-white">
-            <span class="text text-white text-sec">03</span>
+          <div class="circle-secondary circle-done">
+            <p class="text text-white text-sec">03</p>
           </div>
         </div>
         <div>
-          <div>
+          <div class="qoute">
             <h2 class="text quote-text-heading">Get a Quote</h2>
             <p class="text subtext st02">
               Through True Rich Attended does no end it his mother since real
@@ -220,174 +239,195 @@
           </div>
         </div>
       </div>
-      <div class="section03">
-        <h4 class="text h4 text-dark offer-heading text-center">
-          What we Offer
-        </h4>
-        <h2 class="text h2 offer-text">
-          We offer full service auto repair & maintenance
-        </h2>
+    </div>
 
-        <div class="flex offer-section01">
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Diagnostics</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Engine Repair</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Wheel Repair</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Oil Filter</h4>
-          </div>
+    <!-- Offer section -->
+    <div class="section03 text-center">
+      <h4 class="text h4 text-dark offer-heading text-center">What we Offer</h4>
+      <h2 class="text h2 offer-text">
+        We offer full service auto repair & maintenance
+      </h2>
+
+      <div class="flex offer-section01">
+        <div class="box-offer box01 bg-secondary text-center">
+          <i class="fa-solid fa-car-wrench"></i>
+          <h4 class="text h4 text-center text-offer">Diagnostics</h4>
         </div>
-        <div class="flex offer-section02">
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Body Work</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Batteries</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Insurance Claim</h4>
-          </div>
-          <div class="box-offer box01 bg-secondary">
-            <i class="fa fa-icon"></i>
-            <h4 class="text h4 text-center text-offer">Custom Service</h4>
-          </div>
+        <div class="box-offer box01 bg-secondary text-center">
+          <i class="fa-solid fa-brain-circuit"></i>
+          <h4 class="text h4 text-center text-offer">Engine Repair</h4>
         </div>
-        <div class="text arrow">Learn about services ----></div>
-      </div>
-      <div class="flex img-container">
-        <div class="img01">
-          <div class="bg-primary pro text-center">
-            <h3 class="text h3 text-white text-center">
-              Get in touch with us for your service related query
-            </h3>
-            <button class="btn btn-dark text btn-contact">Contact Us</button>
-          </div>
+        <div class="box-offer box01 bg-secondary text-center">
+          <i class="fa-solid fa-tire"></i>
+          <h4 class="text h4 text-center text-offer">Wheel Repair</h4>
         </div>
-        <div class="img02"></div>
-      </div>
-      <div class="bg-default counter flex">
-        <div class="professional">
-          <span class="text h2 text-secondary prof">20+</span>
-          <p class="text text-dark text-prof">Proffesional</p>
-        </div>
-        <div class="professional">
-          <span class="text h2 text-secondary year">10+</span>
-          <p class="text text-dark text-year">Years Eperience</p>
-        </div>
-        <div class="professional">
-          <span class="text h2 text-secondary close">12K+</span>
-          <p class="text text-dark text-close">Service Closed</p>
-        </div>
-        <div class="professional">
-          <span class="text h2 text-secondary customer">100%</span>
-          <p class="text text-dark text-customer">Customer Satisfaction</p>
+        <div class="box-offer box01 bg-secondary text-center">
+          <i class="fa-solid fa-oil-can-drip"></i>
+          <h4 class="text h4 text-center text-offer">Oil Filter</h4>
         </div>
       </div>
-      <div class="brand-container text-center">
-        <h3 class="text text-dark brand-text h3">Brands we Serve</h3>
-        <div class="brand-container-first flex">
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
+      <div class="flex offer-section02">
+        <div class="box-offer box01 bg-secondary">
+          <i class="fa-solid fa-car-rear"></i>
+          <h4 class="text h4 text-center text-offer">Body Work</h4>
         </div>
-        <div class="brand-container-second flex">
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
-          <img class="brand-img" src="" alt="logo" />
+        <div class="box-offer box01 bg-secondary">
+          <i class="fa-solid fa-car-battery"></i>
+          <h4 class="text h4 text-center text-offer">Batteries</h4>
+        </div>
+        <div class="box-offer box01 bg-secondary">
+          <i class="fa-solid fa-shield-check"></i>
+          <h4 class="text h4 text-center text-offer">Insurance Claim</h4>
+        </div>
+        <div class="box-offer box01 bg-secondary">
+          <i class="fa-solid fa-gears"></i>
+          <h4 class="text h4 text-center text-offer">Custom Service</h4>
         </div>
       </div>
-      <div class="bg-default customer-container">
-        <h3 class="text h3 card-header text-center">
-          Our customers say the nicest things about our service
-        </h3>
-        <div class="flex">
-          <div class="card">
-            <div class="flex">
-              <img src="" alt="card image" />
-              <div class="">
-                <h4 class="text h4 text-dark">Jonathan Vallem</h4>
-                <p class="text subtext text-dark">New york</p>
-              </div>
-            </div>
-            <p class="text subtext text-dark">
-              I have got my car repaired at Finsweet many times before, they are
-              good at what they do. Not only did they repair my car in a short
-              comprehensive look on all the working
-            </p>
-          </div>
-          <div class="card card02">
-            <div class="flex">
-              <img src="" alt="card image" />
-              <div class="">
-                <h4 class="text h4 text-dark">Smith Johnson</h4>
-                <p class="text subtext text-dark">New york</p>
-              </div>
-            </div>
-            <p class="text subtext text-dark">
-              I have got my car repaired at Finsweet many times before, they are
-              good at what they do. Not only did they repair my car in a short
-              comprehensive look on all the working
-            </p>
-          </div>
+      <div class="text arrow">
+        <a class="text text-dark" href="#"
+          >Learn about services <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Counter section -->
+    <div class="flex img-container">
+      <div class="img01">
+        <div class="bg-primary pro">
+          <h3 class="text h3 us text-white">
+            Get in touch with us for your service related query
+          </h3>
+          <button class="btn btn-dark text btn-contact">Contact Us</button>
         </div>
-        <div class="flex">
-          <div class="flex grid">
-            <span class="card-span"></span>
-            <span class="card-span"></span>
-            <span class="card-span line-primary"></span>
-            <span class="card-span"></span>
-          </div>
+      </div>
+      <div class="img02"></div>
+    </div>
+    <div class="bg-default counter flex">
+      <div>
+        <span class="text h2 text-secondary prof">20+</span>
+        <p class="text text-dark text-prof">Proffesional</p>
+      </div>
+      <div class="professional">
+        <span class="text h2 text-secondary year">10+</span>
+        <p class="text text-dark text-year">Years Eperience</p>
+      </div>
+      <div class="professional">
+        <span class="text h2 text-secondary close">12K+</span>
+        <p class="text text-dark text-close">Service Closed</p>
+      </div>
+      <div class="professional">
+        <span class="text h2 text-secondary customer">100%</span>
+        <p class="text text-dark text-customer">Customer Satisfaction</p>
+      </div>
+    </div>
+
+    <!-- Brand section -->
+    <div class="brand-container text-center">
+      <h3 class="text text-dark brand-text h3">Brands we Serve</h3>
+      <div class="brand-container-first flex">
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-8_1_b6bidh.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-6_mpyaib.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-7_1_wes6nf.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-3_ttsi3j.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-1_1_vha5o2.png" alt="logo" />
+      </div>
+      <div class="brand-container-second flex">
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-8_1_b6bidh.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-6_mpyaib.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-7_1_wes6nf.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-3_ttsi3j.png" alt="logo" />
+        <img class="brand-img" src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393356/logo-1_1_vha5o2.png" alt="logo" />
+      </div>
+    </div>
+
+    <!-- Customer section-->
+    <div class="customer-container">
+      <h3 class="text h3 card-header">
+        Our customers say the nicest things about our service
+      </h3>
+
+      <div class="flex">
+        <div class="card">
           <div class="flex">
-            <span class="circle bg-white"></span>
-            <span class="circle circle02 bg-dark"></span>
+            <img src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393964/K84vnnzxmTQ_sau21c.png" alt="card image" />
+            <div class="">
+              <h4 class="text h4 text-dark smith">Jonathan Vallem</h4>
+              <p class="text subtext text-dark smith-text">New york</p>
+            </div>
           </div>
+          <p class="text subtext text-dark">
+            I have got my car repaired at Finsweet many times before, they are
+            good at what they do. Not only did they repair my car in a short
+            comprehensive look on all the working
+          </p>
+        </div>
+        <div class="card card02">
+          <div class="flex">
+            <img src="https://res.cloudinary.com/pacifylabs/image/upload/v1652393964/nJHvhXS4C0U_xqrr0a.jpg" alt="card image" />
+            <div class="">
+              <h4 class="text h4 text-dark smith">Smith Johnson</h4>
+              <p class="text subtext text-dark smith-text">New york</p>
+            </div>
+          </div>
+          <p class="text subtext text-dark">
+            I have got my car repaired at Finsweet many times before, they are
+            good at what they do. Not only did they repair my car in a short
+            comprehensive look on all the working
+          </p>
         </div>
       </div>
-      <div class="faq-container bg-default">
-        <h3 class="text h3 text-center">Frequently Asked Questions</h3>
-        <div class="card-faq bg-white">
-          <h4 class="text h4">How long should a car repair take?</h4>
-          <p class="text subtext">
-            I have got my car repaired at Finsweet many times before, they are
-            good at what they do. Not only did they repair my car I have got my
-            car repaired at Finsweet I have got my car repaired at Finsweet
-          </p>
-          <button class="btn btn-primary plus">-</button>
+      <div class="flex">
+        <div class="flex grid">
+          <span class="card-span"></span>
+          <span class="card-span"></span>
+          <span class="card-span line-primary"></span>
+          <span class="card-span"></span>
         </div>
-        <div class="card-faq card-faq02 bg-white">
-          <h4 class="text h4">How do I schedule my car's appointment ?</h4>
-          <button class="btn btn-primary plus plus02">+</button>
-        </div>
-        <div class="card-faq card-faq02 bg-white">
-          <h4 class="text h4">What are the repair services provided?</h4>
-          <button class="btn btn-primary plus plus02">+</button>
-        </div>
-        <div class="card-faq card-faq02 bg-white">
-          <h4 class="text h4">How do I find auto body shops near me?</h4>
-          <button class="btn btn-primary plus plus02">+</button>
-        </div>
-        <div class="card-faq card-faq02 bg-white">
-          <h4 class="text h4">Genuine spare parts during car repair?</h4>
-          <button class="btn btn-primary plus plus02">+</button>
+        <div class="flex circle">
+          <span class="circle-items bg-white text-center"
+            ><i class="fa-solid fa-arrow-left"></i
+          ></span>
+          <span class="circle-items circle02 bg-dark text-center"
+            ><i class="fa-solid fa-arrow-right text-white"></i
+          ></span>
         </div>
       </div>
     </div>
+
+    <!-- Faq section -->
+    <div class="faq-container bg-default">
+      <h3 class="text h3 text-center">Frequently Asked Questions</h3>
+      <div class="card-faq bg-white">
+        <button class="btn-primary minus faq-btn">-</button>
+        <h4 class="text h4 repair">How long should a car repair take?</h4>
+        <p class="text subtext">
+          I have got my car repaired at Finsweet many times before, they are
+          good at what they do. Not only did they repair my car I have got my
+          car repaired at Finsweet I have got my car repaired at Finsweet
+        </p>
+      </div>
+      <div class="card-faq card-faq02 bg-white">
+        <button class="btn-primary plus faq-btn">+</button>
+        <h4 class="text h4 schedule">
+          How do I schedule my car's appointment ?
+        </h4>
+      </div>
+      <div class="card-faq card-faq02 bg-white">
+        <button class="btn-primary plus faq-btn">+</button>
+        <h4 class="text h4 schedule">What are the repair services provided?</h4>
+      </div>
+      <div class="card-faq card-faq02 bg-white">
+        <button class="btn-primary plus faq-btn">+</button>
+        <h4 class="text h4 schedule">How do I find auto body shops near me?</h4>
+      </div>
+      <div class="card-faq card-faq02 bg-white">
+        <button class="btn-primary plus faq-btn">+</button>
+        <h4 class="text h4 schedule">Genuine spare parts during car repair?</h4>
+      </div>
+    </div>
+
+    <!-- Footer section -->
     <div class="footer bg-dark flex">
       <div>
         <h3 class="text h3 text-white footer-h3">
@@ -416,18 +456,18 @@
           />
         </div>
       </div>
-      <div>
+      <div class="second">
         <div>
           <h4 class="text subtext help-line">Help line Number</h4>
           <h3 class="text h3 text-white help-number">1800 265 24 52</h3>
         </div>
-        <div>
+        <div class="address">
           <h4 class="text subtext help-address">Address</h4>
           <h3 class="text h3 text-white help-add">
             NH 234 Public Square San Francisco 65368
           </h3>
         </div>
-        <div>
+        <div class="open02">
           <h4 class="text subtext help-open">We are open</h4>
           <h3 class="text h3 text-white help-day">
             Monday to Friday 9:00 AM to  10:00  AM
@@ -436,24 +476,30 @@
       </div>
     </div>
     <footer>
-      <img
-        class="footer-logo"
-        src="https://res.cloudinary.com/pacifylabs/image/upload/v1652217592/Logo_1_njsoly.png"
-        alt=""
-      />
-      <ul class="footer-nav">
-        <li class="list-text home"><a class="text-white" href="#">Home</a></li>
-        <li class="list-text about">
-          <a class="text-white" href="#">About</a>
-        </li>
-        <li class="list-text services">
-          <a class="text-white" href="#">Services</a>
-        </li>
-        <li class="list-text blog"><a class="text-white" href="#">Blog</a></li>
-        <li class="list-text contact">
-          <a class="text-white" href="#">Contact</a>
-        </li>
-      </ul>
+      <div class="div-items">
+        <img
+          class="footer-logo"
+          src="https://res.cloudinary.com/pacifylabs/image/upload/v1652217592/Logo_1_njsoly.png"
+          alt="Finsweet logo"
+        />
+        <ul class="footer-nav">
+          <li class="list-text li home">
+            <a class="text-white" href="#">Home</a>
+          </li>
+          <li class="list-text li about">
+            <a class="text-white" href="#">About</a>
+          </li>
+          <li class="list-text li services">
+            <a class="text-white" href="#">Services</a>
+          </li>
+          <li class="list-text li blog">
+            <a class="text-white" href="#">Blog</a>
+          </li>
+          <li class="list-text li contact">
+            <a class="text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
