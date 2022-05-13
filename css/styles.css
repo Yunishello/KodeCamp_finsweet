@@ -371,7 +371,7 @@ a {
 
 .services-container-text01 {
   width: 583px;
-  height: 152px;
+  height: auto;
   font-size: 58px;
   line-height: 76px;
   letter-spacing: -0.03em;
@@ -380,7 +380,7 @@ a {
 
 .services-container-text02 {
   width: 413px;
-  height: 134px;
+  height: auto;
   font-size: 48px;
   line-height: 140%;
   letter-spacing: -0.03em;
@@ -507,6 +507,7 @@ a {
   line-height: 28px;
   color: #1e1b1b;
   opacity: 0.6;
+  margin-top: -30px;
 }
 
 .more {
