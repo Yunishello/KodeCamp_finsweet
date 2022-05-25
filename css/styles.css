@@ -20,7 +20,7 @@ body {
 }
 
 .nav-items {
-  margin: 10px 100px;
+  margin: 10px 10%;
 }
 
 .container {
@@ -160,11 +160,11 @@ a {
 }
 
 .vehicle {
-  width: 100%;
+  width: 85%;
 }
 
 .div-items {
-  margin: 0px 100px;
+  margin: 0px 10%;
   margin-right: 0px;
 }
 
@@ -270,7 +270,7 @@ a {
 .bg-r {
   width: 250px;
   height: 72px;
-  margin-left: 350px;
+  margin-left: 35%;
   margin-top: 250px;
   background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
   border: 12px solid transparent;
@@ -360,17 +360,17 @@ a {
 }
 
 .services-container01 {
-  /* margin-left: ; */
+  width: 100%;
 }
 
 .services-container02 {
+  width: 100%;
 }
 
 .circle-container {
 }
 
 .services-container-text01 {
-  width: 583px;
   height: auto;
   font-size: 58px;
   line-height: 76px;
@@ -379,7 +379,6 @@ a {
 }
 
 .services-container-text02 {
-  width: 413px;
   height: auto;
   font-size: 48px;
   line-height: 140%;
@@ -635,16 +634,16 @@ a {
 }
 
 .offer-section01 {
-  margin-left: 10%;
+  margin-left: 12.5%;
 }
 
 .offer-section02 {
-  margin-left: 10%;
+  margin-left: 12.5%;
 }
 
 .arrow {
   margin-top: 50px;
-  margin-left: 800px;
+  margin-left: 67%;
 }
 
 .img-container {
@@ -652,16 +651,16 @@ a {
 }
 
 .pro {
-  width: 550px;
+  width: 100%;
   height: 340px;
-  margin-left: 300px;
+  margin-left: 40%;
   padding-left: 70px;
   padding-top: 10px;
 }
 
 .img01 {
   background: url("https://res.cloudinary.com/pacifylabs/image/upload/v1652055205/image_2022-05-08_171315973_dlqcif.png");
-  width: 50%;
+  width: 10%;
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -673,10 +672,6 @@ a {
   width: 50%;
   height: 350px;
   z-index: 0;
-}
-
-.counter {
-  width: 100%;
 }
 
 .prof {
@@ -739,33 +734,33 @@ a {
 }
 
 .brand-container-first {
-  margin-left: 3%;
+  /* margin-left: 2.5%; */
+  width: auto;
 }
 
 .brand-container-second {
-  margin-left: 3%;
-  margin-top: 50px;
+  /* margin-left: 2.5%; */
+  width: auto;
 }
 
 .brand-img {
-  padding: 0px 20px;
+  padding: 0px 0px;
 }
 
 .card-header {
   text-align: center;
-  width: 700px;
-  margin-left: 25%;
+  /* width: 700px; */
 }
 
 .card {
-  width: 30%;
+  width: 100%;
   padding: 50px;
   margin: 40px 15px;
   background: #ffffff;
   border: 1px solid rgba(172, 172, 172, 0.29);
   box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
   border-radius: 6px;
-  margin-left: 200px;
+  justify-content: space-between;
 }
 
 .card02 {
@@ -790,12 +785,8 @@ a {
 }
 
 .grid {
-  margin-left: 630px;
+  margin-left: 47.5%;
   margin-bottom: 20px;
-}
-
-.circle {
-  margin-left: 350px;
 }
 
 .circle-items {
@@ -821,12 +812,14 @@ a {
   width: 100%;
   height: auto;
   padding: 50px 0px;
+  justify-items: center;
+  align-items: center;
 }
 
 .card-faq {
-  width: 520px;
+  width: 36%;
   /* height: 226px; */
-  margin-left: 420px;
+  margin-left: 25%;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -837,14 +830,14 @@ a {
 }
 
 .card-faq02 {
-  height: 50px;
+  /* height: 50px; */
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
 .minus {
   border-radius: 0%;
-  margin-left: 470px;
+  margin-left: 88%;
   border: none;
   outline: none;
 }
@@ -854,12 +847,12 @@ a {
 }
 
 .schedule {
-  margin-top: -45px;
+  margin-top: -50px;
 }
 
 .plus {
   border-radius: 0%;
-  margin-left: 470px;
+  margin-left: 88%;
   margin-top: 5px;
   border: none;
   outline: none;
@@ -871,9 +864,7 @@ a {
 }
 
 .footer-h3 {
-  width: 463px;
   height: 134px;
-  margin-left: 150px;
   margin-top: 128px;
   margin-right: 50px;
 }
@@ -893,7 +884,6 @@ a {
 
 .help-number {
   margin-top: -20px;
-  width: 500px;
 }
 
 .help-address {
@@ -903,7 +893,6 @@ a {
 
 .help-add {
   margin-top: -20px;
-  width: 500px;
 }
 
 .help-open {
@@ -913,7 +902,6 @@ a {
 
 .help-day {
   margin-top: -20px;
-  width: 500px;
 }
 
 footer {
@@ -923,18 +911,18 @@ footer {
 }
 
 .footer-logo {
-  margin-left: 300px;
+  margin-left: 10%;
   /* margin-top: 30px; */
 }
 
 .footer-nav {
   /* margin-top: 50px; */
-  margin-left: 550px;
+  margin-left: 50%;
   align-items: center;
 }
 
 .footer-icons {
-  margin-left: 150px;
+  margin-left: 20%;
 }
 
 .footer-icon {
@@ -943,6 +931,11 @@ footer {
   padding-right: 5px;
 }
 
+.first {
+  width: 100%;
+}
+
 .second {
   margin-top: 30px;
+  width: 100%;
 }
